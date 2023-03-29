@@ -1,0 +1,10 @@
+== Comenting ==
+Assume person reading has no idea what the code does, but has knowledge of the langaue. e.g Dont explain what an if statment does instead explain why its used/what it is cheking for 
+Use doxygen / equvilent that uses @ for paramas
+
+== Naming ==
+Files - no caps, underscores for spaces                                       : "save_data.txt"           ! "save Data.txt"
+Objects - Each word caps, no spaces, semi-descriptive name                    : "KeyboardDriver"          ! "keyboard_object"
+Functions - first word lower, rest words caps, infer functionality from name  : "writeBufferToFile(...)"  ! "Write_File(..)" 
+Variables - first word lower, rest words caps, describe what it contains      : "graphicsBufferPointer    ! "graphics-b" 
+Constants - Full capitals, any time repeated but not changed, define at top   : "BASE_DRIVER_PORT"        ! "base_DriverPort"
